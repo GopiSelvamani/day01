@@ -1,0 +1,79 @@
+  Task-1 (Day-01)
+
+ Question : Write a blog on Difference between HTTP1.1 vs HTTP2?
+
+                            HTTP1.1 AND HTTP2 DIFFERENCE 
+
+     *** HTTP1.1 ****                                         *** HTTP2 *** 
+
+
+  1. It Works on the textual format.                   1. It works on the binary protocol. 
+
+  2. There is head of line blocking that blocks        2. It allows multiplexing so one TCP (Transmission Control Protocol)
+     all the requests behind it until it doesn't          connection is required for multiple requests.
+     get its all resources.
+
+  3. It uses requests resource inlining for use        3. It uses PUSH frame by server that collects all 
+     getting multiple pages.                              multiple pages.
+
+  4. It compresses data by itself.                     4. It uses HPACK for data compression. 
+
+  5. It was known to have poor response time           5. It has come with advancements in efficency speed &
+     the protocol was losing its efficency.               Security.
+
+  6. A program like Gzip comparession software         6. It uses the HPACK compression software is used to 
+     is used to compress the size of CSS and Java         compress the size of encodes the header metadata and 
+     -script files to reduce the data size.               reduces the size of the header.
+
+
+Question : Write a blog about objects and its internal representation in Javascript?
+
+             Title :- Undestanding objects and its internal representation in Javascript
+
+    * Introduction:
+           JavaScript is a lightweight, cross-platform,single threaded,and interpreted compiled programming language.
+      It is also known as the scripting language for webpages,It is well known for the development of web pages,and 
+      Many non-browser environments also use it.
+           Javascript is a weakly typed language. Javascript can be used for Client-side developments as well as Server
+      -Side developments. Javascript contains a standard library of objects,like Array,Date,and Math, and a core set of
+      Language elements like operators,control structures,and Statements.
+
+   * Objects in JavaScript:
+           In JavaScript, objects are collections of key-value pairs, where each key is a string (or Symbol) and 
+      each value can be of any data type, including other objects. Objects in JavaScript can be created
+      using object literal syntax, constructor functions, or the class keyword in ES6.
+
+       1. Object Literal Syntax:
+            This is the most common way to create objects in JavaScript. You define key-value pairs inside
+          curly braces {}, separated by commas.
+       2. Constructor Functions:
+            You can create objects using constructor functions, which are functions that serve as
+          blueprints for creating objects. Inside the constructor function, you use the this keyword
+          to refer to the newly created object.
+       3. ES6 Classes:
+            With the introduction of ES6, JavaScript also supports classes, which are a syntactic sugar
+          over constructor functions. Classes provide a more familiar syntax for defining objects and 
+          their behavior.
+    
+  * Internal Representation of Objects:
+        Under the hood, objects in JavaScript are represented as key-value maps,where the keys are strings or symbols,
+      and the values can be of any type, including other objects or functions. This representation is often referred to 
+      as a hash table or hash map.
+
+  * Memory Management:
+        JavaScript objects are allocated memory dynamically,and memory management is handled automatically by the JavaScript
+     engine's garbage collector.When an object is no longer reachable from the program, it becomes eligible for garbage collection,
+     and its memory is reclaimed.
+
+  * Object Serialization:
+       JavaScript objects can be serialized into various formats, such as JSON, which represents objects as strings.
+     Serialization allows objects to be transmitted over the network or stored in a persistent manner. Conversely, 
+     deserialization is the process of reconstructing objects from serialized data.
+
+
+
+           
+
+
+
+
